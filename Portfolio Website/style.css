@@ -1,0 +1,141 @@
+.navbar {
+    background-color: #0F1035;
+    position: fixed;
+    width: 100%;
+}
+
+body {
+    background-color: #DCF2F1;
+}
+.body {
+    height: 90vh;
+    color: #0F1035;
+    display: flex;
+    align-items: center;
+}
+#about-myself {
+    color: #0F1035;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+   
+}
+.about-myself {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+    height: auto;
+     padding-left: 2em;
+    text-align: justify;
+}
+.text {
+    height: auto;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 0.5em;
+}
+h1, h2 {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'DM Serif Display', serif;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+h3 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.navlink {
+    color: #DCF2F1;
+    text-decoration: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 1em;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.Profile {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
+.feetures {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+.main-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #0F1035;
+}
+.contact {
+    text-align: center;
+    font-size: 16px;
+    color: #0F1035;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer {
+    background-color: #7FC7D9;
+    display: flex;
+    justify-content: center;
+}
+.child-footer {
+    align-self: baseline;
+    background-color: #7FC7D9;
+}
+@media (max-width: 269px){
+    .about-myself {
+        display: flex;
+        font-size: 13px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        margin-top: 5rem;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .text > p {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    }
+    .main-container {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .biography{
+      display: block;
+      margin-top: 1rem;
+    }
+    .Feeture {
+        width: 80%;
+    }
+    .Profile {
+        width: 200px;
+        height: 200px;
+    }
+  

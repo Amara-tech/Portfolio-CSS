@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mondrain</title>
+        <style>
+            .red {
+      background-color: #e72f24;
+      grid-area: 2/ 2/ 4 / 5;
+    }
+    .black {
+      background-color: #232629;
+    }
+    .white {
+      background-color: #f0f1ec;
+    }
+    .yellow { 
+      background-color: #f9d01e;
+    }
+    .blue {
+      background-color: #004592;
+    }
+        .main-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        .container {
+            display: grid;
+            height: 100%;
+            grid-template-columns: 50px 75px 75px 200px 100px;
+            grid-template-rows: 50px 120px 200px 100px 70px 50px 30px;
+            gap: 9px;
+            background-color: #000;
+        }
+        .white2, .black1 {
+        grid-column-start: span 2;
+        }
+        .black1 {
+          grid-row-start: span 2;
+        }
+       .white3 {
+        grid-row-start: span 2;
+       }
+       .yellow1 {
+        grid-row-start: span 3;
+       }
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="container">
+                <div class="white white2"></div>
+                <div class="white white2"></div>
+                <div class="yellow"></div>
+                <div class="white"></div>
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="white white3"></div>
+                <div class="white"></div>
+                <div class="black black1"></div>
+                <div class="white"></div>
+                <div class="white"></div>
+                <div class="yellow yellow1"></div>
+                <div class="white"></div>
+                <div class="blue white3"></div>
+                <div class="white white2 yellow1"></div>
+                <div class="black"></div>
+                <div class="white white2 white3"></div>
+            </div>
+        </div>
+    </body>
+</html>
